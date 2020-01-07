@@ -1,0 +1,19 @@
+{
+  "name": "tag_formatter",
+  "version": "1.0.0",
+  "description": "Given comma delimeted input and formatting for in front of and after the entry, regenerate a different formatting.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/randyajackson/tag_formatter.git"
+  },
+  "author": "Randy Jackson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/randyajackson/tag_formatter/issues"
+  },
+  "homepage": "https://github.com/randyajackson/tag_formatter#readme"
+}
