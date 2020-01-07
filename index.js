@@ -27,3 +27,28 @@ let newOutput = tag_formatter(input, preTag, postTag);
 for(let i = 0; i < newOutput.length; i++){
     console.log(newOutput[i]);
 }
+
+//output
+//-------------------------------------------
+// "Le Car",
+// "Adam Lee Miller",
+// "Ian R. Clark",
+// "Auto-Biography",
+// "2000",
+// "US",
+// "Electro",
+// "Synth-pop",
+// "Ersatz Audio",
+
+//if preTag = '#'
+// #LeCar
+// #AdamLeeMiller
+// #IanR.Clark
+// #Auto-Biography
+// #2000
+// #US
+// #Electro
+// #Synth-pop
+// #ErsatzAudio
+
+
