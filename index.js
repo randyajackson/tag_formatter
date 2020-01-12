@@ -1,4 +1,8 @@
-let input = ["Le Car","Adam Lee Miller","Ian R. Clark","Auto-Biography","2000","US","Electro","Synth-pop","Ersatz Audio"];
+let fs = require('fs');
+
+var rawText = fs.readFileSync('input.txt', 'utf8');
+
+let input = rawText.split(',');
 
 let preTag = "\"";
 let postTag = "\", ";
